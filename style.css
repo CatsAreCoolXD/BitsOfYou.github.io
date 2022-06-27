@@ -1,3 +1,6 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
 #standard {
   font-family: Arial;
 }
@@ -10,4 +13,10 @@ body {
 
 .focus {
   text-align: center;
+  font-family: 'Merriweather Sans';
+}
+
+.title {
+  color: #1F1A30;
+  margin-top: 125px;
 }
