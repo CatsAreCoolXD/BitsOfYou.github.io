@@ -1,5 +1,7 @@
 /* imports */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
 
 #standard {
   font-family: Arial;
@@ -14,6 +16,13 @@ body {
 .focus {
   text-align: center;
   font-family: 'Merriweather Sans';
+}
+.wait {
+  margin-top: 75px;
+}
+.text {
+  font-family: 'Secular One';
+  text-align: center;
 }
 
 .title {
