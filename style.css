@@ -1,0 +1,13 @@
+#standard {
+  font-family: Arial;
+}
+
+body {
+  background-image: url("achtergrond.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.focus {
+  text-align: center;
+}
