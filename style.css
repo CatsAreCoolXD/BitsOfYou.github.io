@@ -1,6 +1,9 @@
 /* imports */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@800&display=swap');
+
 
 
 #standard {
@@ -11,21 +14,37 @@ body {
   background-image: url("achtergrond.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
+  background-attachment: fixed;
 }
 
 .focus {
   text-align: center;
-  font-family: 'Merriweather Sans';
+  font-family: 'Merriweather Sans', sans-serif;
 }
 .wait {
   margin-top: 75px;
 }
+
 .text {
-  font-family: 'Secular One';
+  font-family: 'Secular One', sans-serif;
   text-align: center;
 }
 
 .title {
   color: #1F1A30;
   margin-top: 125px;
+}
+.grafiekDiv {
+  margin-top: 100px;
+  margin-left: 50px;
+  font-family: 'Neuton', serif;
+  font-size: 30px;
+}
+
+.grafiekDiv2 {
+  position: absolute;
+  margin-left: 1050px;
+  margin-top: -485px;
+  font-family: 'Neuton', serif;
+  font-size: 30px;
 }
