@@ -37,14 +37,23 @@ body {
 .grafiekDiv {
   margin-top: 100px;
   margin-left: 50px;
-  font-family: 'Neuton', serif;
-  font-size: 30px;
+  font-family: 'Arial', serif;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .grafiekDiv2 {
   position: absolute;
   margin-left: 1050px;
   margin-top: -485px;
-  font-family: 'Neuton', serif;
-  font-size: 30px;
+  font-family: 'Arial', serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#resultsText {
+  position: absolute;
+  font-size: 75px;
+  margin-top: -575px;
+  margin-left: 38%;
 }
