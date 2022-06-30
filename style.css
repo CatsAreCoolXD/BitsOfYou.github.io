@@ -8,6 +8,8 @@
 
 #standard {
   font-family: Arial;
+  border: 1px solid black;
+  background:transparent black;
 }
 
 body {
@@ -41,6 +43,10 @@ body {
   font-size: 25px;
   font-weight: bold;
 }
+.grafiekDiv img {
+  width: 35%;
+  height: 35%;
+}
 
 .grafiekDiv2 {
   position: absolute;
@@ -49,6 +55,11 @@ body {
   font-family: 'Arial', serif;
   font-size: 25px;
   font-weight: bold;
+}
+
+.grafiekDiv2 img {
+  width: 35%;
+  height: 35%;
 }
 
 #resultsText {
