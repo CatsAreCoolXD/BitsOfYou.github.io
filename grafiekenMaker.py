@@ -8,12 +8,6 @@ keerIngeschreven = data["Ingeschreven?"]
 keerWijziging = data["Wijziging?"]
 dagen = ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag"]
 gechecktDict = {"Dag": dagen, "Hoeveel keer gecheckt": [keerGecheckt[0], keerGecheckt[1], keerGecheckt[2], keerGecheckt[3], keerGecheckt[4]]}
-
-# gechecktDict["Maandag"]=gechecktDict["Maandag"].astype(float)
-# gechecktDict["Dinsdag"]=gechecktDict["Dinsdag"].astype(float)
-# gechecktDict["Woensdag"]=gechecktDict["Woensdag"].astype(float)
-# gechecktDict["Donderdag"]=gechecktDict["Donderdag"].astype(float)
-# gechecktDict["Vrijdag"]=gechecktDict["Vrijdag"].astype(float)
 cijferDict = {"Dag": dagen, "Hoeveel cijfers gekregen": [keerCijferGekregen[0], keerCijferGekregen[1], keerCijferGekregen[2], keerCijferGekregen[3], keerCijferGekregen[4]]}
 wijzigingDict = {"Dag": dagen, "Hoevaak een wijziging": [keerWijziging[0], keerWijziging[1], keerWijziging[2], keerWijziging[3], keerWijziging[4]]}
 ingeschrevenDict = {"Dag": dagen, "Hoevaak ingeschreven": [keerIngeschreven[0], keerIngeschreven[1], keerIngeschreven[2], keerIngeschreven[3], keerIngeschreven[4]]}
@@ -32,6 +26,3 @@ checkPNG.savefig("grafiekCheck.png")
 cijferPNG.savefig("grafiekCijfer.png")
 wijzigingPNG.savefig("grafiekWijziging.png")
 ingeschrevenPNG.savefig("grafiekIngeschreven.png")
-
-
-plt.show()
