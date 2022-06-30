@@ -4,8 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neuton:wght@800&display=swap');
 
-
-
 #standard {
   font-family: Arial;
   border: 1px solid black;
@@ -17,6 +15,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
+  display: flex;
 }
 
 .focus {
